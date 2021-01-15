@@ -1,0 +1,10 @@
+lst=list()
+#lst.append(50)
+#lst.append(60)
+for i in range(1,51):
+    lst.append(i)
+    #print(lst)
+high=max(lst)
+print(high)
+mini=min(lst)
+print(mini)
