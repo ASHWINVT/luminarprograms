@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 500px;
+}
+table{
+    margin-top: 60px;
+    margin-left: 120px;
+    margin: auto;
+}
+td{
+    padding: 100px;
+    height: 400px;
+}
+/* div{ 
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+} */
+
+.red{
+    display: inline-block;
+    background-color: red;  
+    float: left;
+}
+.yellow{
+    display: inline-block;
+    background-color:yellow;
+    float: left;
+}
+.green{
+    display: inline-block;
+    background-color:green;
+    float: left;
+}
+.blue{
+    display: inline-block;
+    background-color: blue;
+    float: left;
+}

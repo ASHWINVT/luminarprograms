@@ -1,15 +1,15 @@
-employees=[
-    [10,"christy","data",50000],
-    [11, "jhon", "ba", 30000],
-    [12, "sab", "data", 40000],
-    [13, "tom", "developer", 40000],
-    [14,"jhoni","data",30000],
-   [15, "sabir", "ba", 50000],
-    [16, "tomis", "data", 40000],
-    [17, "tammy", "developer", 47000],
-    [18, "alex", "developer", 32000],
+employees={
+    {"id":10,"mame":"christy","desig":"data","sal":50000,"join":1980,"resign":1999},
+    {"id":11,"name":"jhon","desig": "ba","sal": 30000,"join":1996,"resign":2000},
+    {"id":12, "sab", "data", 40000},
+    {"id":13, "tom", "developer", 40000},
+    {"id":14,"jhoni","data",30000},
+    {"id":15, "sabir", "ba", 50000},
+{"id":16, "tomis", "data", 40000},
+{"id":17, "tammy", "developer", 47000},
+{"id":18, "alex", "developer", 32000},
 
-]
+}
 
 #salary_list=[]
 #for emp in employees:

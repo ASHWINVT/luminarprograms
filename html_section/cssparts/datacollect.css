@@ -1,0 +1,41 @@
+body{
+    background-color:slategrey;
+}
+h1{
+    background-color:rgb(33, 146, 103);
+    text-align: center;
+    border-color: rgb(209, 212, 17);
+    border-style: solid;
+    border-width: 1px;
+    
+}
+#leo{
+    background-color:rgb(24, 241, 176);
+    border-style: solid;
+    border-width: 1px;
+    width: 20%;
+    border-color:black;
+}
+#li{
+    text-align: center;
+}
+#cr{
+    background-color: yellow;
+    border-width: 1px;
+    width: 20%;
+    border-style: solid;
+    border-color:red;
+}
+#cri{
+    text-align: center;
+}
+#god{
+    background-color:springgreen;
+    border-width: 1px;
+    width: 20%;
+    border-style: solid;
+    border-color:red;
+}
+#mar{
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Your Post</h1>
+    <label for="">title</label>
+    <input type="text" class="title">
+    <label for="">body</label>
+    <input type="text" name="" class="bdy">
+    <label for="">user id</label>
+    <input type="text" class="uid" id="">
+    <button onclick="createpost()">createnewpost</button>
+</body>
+<script>
+    // function createpost(){
+    // var request=new XMLHttpRequest()
+    // var title=document.querySelector(".title").value;
+    // var body=document.querySelector(".bdy").value;
+    // var userid=document.querySelector(".uid").value;
+    // var data={
+    //     title:title,
+    //     body:body,
+    //     userid:userid
+    // }
+    // request.open("post",`http://jsonplaceholder.typicode.com/posts`)
+    //     request.send()
+    //         request.onreadystatechange=()=>{
+    //             if(request.readyState==4){
+    //                 if((request.status>199)&(request.status<300)){
+    //                     var data=JSON.parse(request.responseText)
+    //                     alert("sucess")
+    //                     var html_data=`<tr><td>${data.title}</td><td>${data.body}</td></tr>`;
+    //                     document.querySelector(".result").innerHTML=html_data;
+                        
+    //                 }
+    //             }
+    //          }
+    //     }
+function createpost(){
+    var request=new XMLHttpRequest()
+    var title=document.querySelector(".title").value;
+    var body=document.querySelector(".bdy").value;
+    var userid=document.querySelector(".uid").value;
+    var data={
+        title:title,
+        body:body,
+        userid:userid
+    }
+    fetch("http://jsonplaceholder.typicode.com/posts",{
+    method: `POST`,
+    body: JSON.stringify(data),
+    headers: {
+        'Content-type':'application/json; charset=UTF-8',
+        },
+    }).then(response=>response.json())
+    .then(data=>alert("task completed"))
+    .catch(err=>alert("failed"))
+}
+</script>
+</html>

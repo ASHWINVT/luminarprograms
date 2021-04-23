@@ -1,0 +1,22 @@
+.top{
+    height: 80px;
+    width: 60%;
+    background-color: tomato;
+    margin-left: 23%;
+    padding-top: 20px;
+    padding-left: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: wavy;
+}
+
+.bottom{
+    height: 80px;
+    width: 60%;
+    margin-left: 23%;
+    padding-left: 10%;
+    background-color: aqua;
+    margin-top: 15%;
+    font-size: small;
+}

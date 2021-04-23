@@ -1,0 +1,123 @@
+body{
+    height: 1000px;
+    /* padding: 5px 0;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    text-align: center;
+    display: block; */
+}
+
+.topdiv{
+    background-color:#5e068a ;
+    color:white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    width: 100%;
+}
+
+.navbar{
+    position: sticky;
+    background-color:  white;
+    padding: 27px ;
+}
+a{
+    color: black;
+    font-size: 14px;
+    font: optional;
+    font-weight: 600;
+}
+h2{
+    color: #5e068a;
+    font-weight: bolder;
+}
+span{
+    color: #5e068a99;
+}
+.part1{
+        width: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+}
+.button-default{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+img1
+{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img{
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+}
+button:hover{
+    background-color: white;
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+
+}
+.part2{
+    color: #5e068a;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0.2;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.part3{
+    position: relative;
+    top: 80px;
+}
+.part4{
+    position: relative;
+    top: 150px;
+}
+.part5{
+    position: relative;
+    top: 180px;
+    align-items: center;
+
+}
+.bttn2{
+    width: 180px;
+    font-size: 12px;
+    position: relative;
+    width: auto;
+
+}
+
+    

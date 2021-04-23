@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="bankscript.js"></script>
+</head>
+<body>
+    <h1>WELCOME USER</h1>
+    <form action="">
+        <div class="container" style="width: 400px;">
+        <div class="mb-3">
+                <input class="form-control" id="accno" type="text" placeholder="ACCOUNT NUMBER">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" id="pwd" type="text" placeholder="PASSWORD">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" id="amnt" type="text" placeholder="AMOUNT">
+        </div>
+        <div class="mb-3">
+            <button class="" type="button" onclick="Bank.deposit()">DEPOSIT</button>
+        </div>
+        <div class="mb-3">
+            <button class="" type="button" onclick="Bank.withdraw()">WITHDRAW</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
